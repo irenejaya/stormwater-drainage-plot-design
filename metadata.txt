@@ -13,7 +13,7 @@ about=Dockable long-section plotting and design tool for stormwater drainage net
     <b>Design</b> — Start a pipe layer carrying the design schema, then draw pipes with QGIS's normal digitising tools and snapping; every line becomes one pipe. Inverts are graded automatically from a minimum ground cover, pipe diameter and slope, and can be edited live in a table that stays in sync with the layer. Recalculate the whole chain after moving the alignment or changing the design settings.
     <br><br>
     <b>Export</b> — Send the plotted profile to CSV: paired X/Y series (ground, invert, obvert, pits) ready to chart, plus a per-pipe band table with chainage, levels, grade, cover and depth to invert for long-section drafting.
-version=1.2
+version=1.0
 author=Irene Jaya
 email=irenejaya1@gmail.com
 
