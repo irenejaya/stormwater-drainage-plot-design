@@ -13,15 +13,16 @@ about=Dockable long-section plotting and design tool for stormwater drainage net
     <b>Design</b> — Start a pipe layer carrying the design schema, then draw pipes with QGIS's normal digitising tools and snapping; every line becomes one pipe. Inverts are graded automatically from a minimum ground cover, pipe diameter and slope, and can be edited live in a table that stays in sync with the layer. Recalculate the whole chain after moving the alignment or changing the design settings.
     <br><br>
     <b>Export</b> — Send the plotted profile to CSV: paired X/Y series (ground, invert, obvert, pits) ready to chart, plus a per-pipe band table with chainage, levels, grade, cover and depth to invert for long-section drafting.
-version=0.2
+version=1.2
 author=Irene Jaya
-email=
+email=irenejaya1@gmail.com
 
-tracker=
-repository=
+tracker=https://github.com/irenejaya/stormwater-drainage-plot-design/issues
+repository=https://github.com/irenejaya/stormwater-drainage-plot-design
+homepage=https://github.com/irenejaya/stormwater-drainage-plot-design
+
 tags=python,stormwater,drainage,pipe,pipes,culvert,culverts,pit,pits,sewer,long section,longitudinal section,long-section,profile,invert,chainage,network,trace,flow trace,design,grade,cover,dem,elevation,hydrology,hydraulics,tuflow,1d_nwk,plotly
 
-homepage=
 category=Plugin
 icon=icon.svg
 experimental=True
@@ -30,16 +31,14 @@ hasProcessingProvider=no
 server=False
 
 changelog=
-    0.2 - Stormwater design
-        * Renamed from Pipe Plotter
+    1.0 - Stormwater design
         * Design mode: start a pipe layer, draw pipes with QGIS digitising and snapping
         * Inverts graded automatically from minimum ground cover, diameter and slope
         * Live design table kept in sync with the layer, including deletions
         * Automatic layer styling: flow-direction arrows and ID (Width) labels
         * Export the plotted profile to CSV for long-section drafting
-    <br>
-    0.1 - Initial release
         * Trace pipe/culvert networks upstream from a selected pipe, branching per tributary
         * Ground + invert long-section plotting via Plotly, embedded in the dock
         * Multi-layer pipe and pit support, with TUFLOW pit top/bottom rules
         * Click-through highlight and zoom to a pipe on the map
+        
